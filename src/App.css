@@ -1,0 +1,87 @@
+.header {
+  background-color: #351205;
+  height: 79px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.logo h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  color: #F2A900;
+  margin: 0;
+}
+
+.menu{
+  display: flex;
+  gap: 30px;
+}
+
+.menu a{
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  padding-bottom: 4px;
+}
+
+.menu .ativo{
+  color: #F2A900;
+  border-bottom: 2px solid #F2A900;
+}
+
+
+/*
+.cabecalho {
+  background-color: #351205;
+  height: 79px;
+  display: flex;
+  align-items: center;
+}
+
+.cabecalhoInterno {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.tituloCabecalho {
+  color: #D29003;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.menu a:hover {
+  opacity: 0.8;
+}
+
+.ativo {
+  border-bottom: 2px solid #D29003;
+  padding-bottom: 4px;
+  color: #D29003;
+}
+
+.inativo {
+  color: #FFFFFF;
+}*/
