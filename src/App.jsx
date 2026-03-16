@@ -1,27 +1,21 @@
 import './App.css'
-
+import { Baseboard } from './components/Baseboard'
+import { Cabecalho } from './components/Cabecalho'
 function App() {
 
   return (
     <main>
       <header>
-        <div className='header'>
-          <div className='logo'>
-            <h1>I EREEQ-CO</h1>
-          </div>
-          <div>
-            <nav className='menu'>
-            <a href="#" className='ativo'>Sobre o Evento</a>
-            <a href="#" >Participantes</a>
-            <a href="#" >Carta do I EREEQ-CO</a>
-          </nav>
-          </div>
-        </div>
+        <Cabecalho />
+        <section>
+          <img src="/banner.jpg" alt="" />
+        </section>
+
+        <Baseboard/>
+
       </header>
 
-      <section>
-        <img src="/banner.jpg" alt="" />
-      </section>
+
     </main>
   )
 }

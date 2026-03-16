@@ -1,0 +1,22 @@
+.baseboard {
+    width: 100%;
+    height: 88px;
+    background-color: #351205;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.texto_baseboard {
+    max-width: 1440px;
+    text-align: center;
+}
+
+.texto_baseboard h1 {
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+}
