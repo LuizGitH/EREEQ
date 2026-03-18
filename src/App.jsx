@@ -1,22 +1,23 @@
 import './App.css'
 import { Baseboard } from './components/Baseboard'
 import { Cabecalho } from './components/Cabecalho'
+import { Banner } from './components/Banner'
 function App() {
 
   return (
-    <main>
+    <>
       <header>
         <Cabecalho />
-        <section>
-          <img src="/banner.jpg" alt="" />
-        </section>
-
-        <Baseboard/>
-
       </header>
 
+      <main>
+        <Banner/>
+      </main>
 
-    </main>
+      <footer>
+        <Baseboard />
+      </footer>
+    </>
   )
 }
 
