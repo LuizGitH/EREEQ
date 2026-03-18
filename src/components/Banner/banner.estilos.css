@@ -14,7 +14,7 @@
   text-align: center;
   color: #FFFFFF;
   padding: 0 20px;
-    font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
 
 }
 
@@ -25,7 +25,7 @@
   margin-bottom: 20px;
 }
 
-.banner p{
+.banner p {
   font-size: 16px;
   font-weight: 400;
   max-width: 550px;
