@@ -2,6 +2,7 @@ import './App.css'
 import { Baseboard } from './components/Baseboard'
 import { Cabecalho } from './components/Cabecalho'
 import { Banner } from './components/Banner'
+import { AboutEvent } from './components/AboutEvent'
 function App() {
 
   return (
@@ -12,8 +13,10 @@ function App() {
 
       <main>
         <Banner/>
-      </main>
+        <AboutEvent/>
 
+        
+      </main> 
       <footer>
         <Baseboard />
       </footer>
@@ -22,3 +25,8 @@ function App() {
 }
 
 export default App
+/*Os componetes serão:
+ AboutEvent
+ObjectivesAndActivities
+TopicsDiscussed
+EventImportance*/
