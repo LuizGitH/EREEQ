@@ -3,6 +3,8 @@ import { Baseboard } from './components/Baseboard'
 import { Cabecalho } from './components/Cabecalho'
 import { Banner } from './components/Banner'
 import { AboutEvent } from './components/AboutEvent'
+import { ObjectivesAndActivities } from './components/ObjectivesAndActivities'
+import { TopicsDiscussed } from './components/TopicsDiscussed'
 function App() {
 
   return (
@@ -14,8 +16,8 @@ function App() {
       <main>
         <Banner/>
         <AboutEvent/>
-
-        
+        <ObjectivesAndActivities/>
+        <TopicsDiscussed/>        
       </main> 
       <footer>
         <Baseboard />
