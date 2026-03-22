@@ -1,7 +1,9 @@
 .aboutEvent {
+    width: 100%;
     background-color: #FFF6E9;
     padding: 80px 0;
     height: 500px;
+    min-width: 465px;
 }
 
 .aboutEvent div {
