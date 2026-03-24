@@ -70,10 +70,10 @@ button:focus-visible {
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Isso impede que padding aumente o tamanho dos elementos */
+    box-sizing: border-box;
 }
 
 body, html, #root {
     width: 100%;
-    overflow-x: hidden; /* Isso vai "cortar" qualquer branco que tente sobrar à direita */
+    overflow-x: hidden;
 }

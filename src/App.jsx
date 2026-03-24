@@ -5,6 +5,7 @@ import { Banner } from './components/Banner'
 import { AboutEvent } from './components/AboutEvent'
 import { ObjectivesAndActivities } from './components/ObjectivesAndActivities'
 import { TopicsDiscussed } from './components/TopicsDiscussed'
+import { EventImportance } from './components/EventImportance'
 function App() {
 
   return (
@@ -17,7 +18,8 @@ function App() {
         <Banner/>
         <AboutEvent/>
         <ObjectivesAndActivities/>
-        <TopicsDiscussed/>        
+        <TopicsDiscussed/>
+        <EventImportance/>        
       </main> 
       <footer>
         <Baseboard />
@@ -27,8 +29,3 @@ function App() {
 }
 
 export default App
-/*Os componetes serão:
- AboutEvent
-ObjectivesAndActivities
-TopicsDiscussed
-EventImportance*/
