@@ -29,7 +29,7 @@
   padding-bottom: 4px;
 }
 
-.menu .ativo{
+.menu a.active{
   color: #F2A900;
   border-bottom: 2px solid #F2A900;
 }

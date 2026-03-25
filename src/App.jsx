@@ -1,30 +1,20 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
-import { Baseboard } from './components/Baseboard'
-import { Cabecalho } from './components/Cabecalho'
-import { Banner } from './components/Banner'
-import { AboutEvent } from './components/AboutEvent'
-import { ObjectivesAndActivities } from './components/ObjectivesAndActivities'
-import { TopicsDiscussed } from './components/TopicsDiscussed'
-import { EventImportance } from './components/EventImportance'
+import HomePage from './pages/HomePage'
+import LetterPage from './pages/LetterPage'
+import ParticipantsPage from './pages/ParticipantsPage'
+
 function App() {
 
   return (
-    <>
-      <header>
-        <Cabecalho />
-      </header>
-
-      <main>
-        <Banner/>
-        <AboutEvent/>
-        <ObjectivesAndActivities/>
-        <TopicsDiscussed/>
-        <EventImportance/>        
-      </main> 
-      <footer>
-        <Baseboard />
-      </footer>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage/>} />
+        <Route path="/Letter" element={<LetterPage/>} />
+        <Route path="/Participants" element={<ParticipantsPage/>} />
+        <Route path='*' element={<h1>Not Found</h1>} />
+      </Routes>
+    </Router> 
   )
 }
 
