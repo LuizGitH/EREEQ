@@ -2,6 +2,7 @@ import '../App.css'
 import { Baseboard } from '../components/Baseboard'
 import { Cabecalho } from '../components/Cabecalho'
 import { EventParticipants } from '../components/EventParticipants'
+import { EventImages } from '../components/EventImages'
 
 function ParticipantsPage() {
 
@@ -13,6 +14,7 @@ function ParticipantsPage() {
 
       <main>
         <EventParticipants />
+        <EventImages />
       </main>
 
       <footer>
