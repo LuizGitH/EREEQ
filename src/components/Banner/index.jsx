@@ -3,12 +3,7 @@ import { Button } from '../button'
 export function Banner() {
   return (
     <section
-      className="
-        w-full min-h-[70vh] md:min-h-[80vh] lg:min-h-screen
-        bg-[url('/banner.jpg')] bg-cover bg-center
-        flex flex-col justify-center items-center
-        text-center text-white px-4
-      "
+      className="w-full min-h-[70vh] md:min-h-[80vh] lg:min-h-screen bg-[url('/banner.jpg')] bg-cover bg-center flex flex-col justify-center items-center text-center text-white px-4"
     >
 
       <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold max-w-[723px] mb-4">
@@ -23,7 +18,7 @@ export function Banner() {
         Um espaço de diálogo, valorização cultural e fortalecimento da Educação Escolar Quilombola no Centro-Oeste brasileiro.
       </p>
 
-      <Button link="https://www.youtube.com/">
+      <Button link="#sobre-evento">
         Conheça o Evento
       </Button>
 

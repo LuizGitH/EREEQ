@@ -1,6 +1,6 @@
 export function AboutEvent() {
     return (
-        <section className="w-full bg-[#FFF6E9] py-12 md:py-20">
+        <section id="sobre-evento" className="w-full bg-[#FFF6E9] py-12 md:py-20">
             <div className="max-w-6xl mx-auto px-4 md:px-6 font-sans text-justify">
                 
                 <h2 className="text-2xl md:text-4xl font-bold text-[#351205] mb-6">
